@@ -142,6 +142,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Bcl.AsyncInterfaces.dll"
@@ -459,6 +460,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PathTracing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.Assistant.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rendering.LightTransport.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
@@ -503,8 +506,11 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll"
+"Assets/Scripts/Boss.cs"
+"Assets/Scripts/Challenger.cs"
 "Assets/Scripts/MainScript.cs"
 "Assets/Scripts/Monster.cs"
+"Assets/Scripts/NewEmptyCSharpScript.cs"
 "Assets/Scripts/Player.cs"
 -langversion:9.0
 /deterministic
